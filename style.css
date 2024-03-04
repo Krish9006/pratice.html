@@ -1,0 +1,33 @@
+.menu-Bar{
+    height:40px;
+    width:100%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
+.item{
+    height:30px;
+    width:90px;
+    margin-top: 10px;
+}
+
+.item a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.button{
+    background-color: black;
+    color:aliceblue;
+    border-radius:5px;
+
+}
+.button:hover{
+    background-color:aliceblue;
+}
+.item a:hover{
+    color:black;
+}
