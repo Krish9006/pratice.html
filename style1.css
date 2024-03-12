@@ -1,0 +1,30 @@
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+.container{
+    width:800px;
+    height:1000px;
+    border:2px;
+    display:flex;
+
+}
+#item1{
+    position: static;
+    top:10px;
+}
+#item2{
+    position: relative;
+    top:70px;
+}
+#item3{
+    position: sticky;
+    top:500x;
+    left:20px;
+}
+#item4{
+    position: absolute;
+    top:30px;
+    right:20px;
+}
